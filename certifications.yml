@@ -19,7 +19,7 @@ certifications:
     issuer: SEC Playground
     year: 2026
     status: ACTIVE
-    badge: badges/spg-basic-soc.png
+    badge: badges/spg-soc-tier1.png
     verify_url: https://www.credly.com/badges/db96a035-42e3-4b48-96a6-585df0a8b6aa/public_url
 
   - name: Basic SOC
