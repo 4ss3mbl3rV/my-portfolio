@@ -1,0 +1,73 @@
+# ===========================================
+# Projects Configuration
+# ===========================================
+# Add your projects below. Each project should have:
+#   - name: Project title
+#   - category: Open Source | Personal | Lab | Tool
+#   - status: Active | Completed
+#   - description: Brief description (1-2 sentences)
+#   - tags: List of technology tags
+#   - links: GitHub and/or Live Demo URLs
+#
+# Example:
+#   - name: My Awesome Project
+#     category: Tool
+#     status: Active
+#     description: A brief description of what this project does.
+#     tags:
+#       - Python
+#       - Docker
+#     links:
+#       github: https://github.com/username/project
+#       demo: https://project-demo.com
+# ===========================================
+
+projects:
+  - name: Incident Response Toolkit
+    category: Open Source
+    status: Active
+    description: A comprehensive collection of scripts and tools for streamlining incident response workflows, including memory acquisition, log collection, and automated triage.
+    tags:
+      - Python
+      - PowerShell
+      - Bash
+      - Forensics
+    links:
+      github: https://github.com/yourusername/ir-toolkit
+
+  - name: Home Cyber Lab
+    category: Lab
+    status: Active
+    description: A virtualized home lab environment for practicing offensive and defensive security techniques, featuring vulnerable machines, SIEM integration, and network segmentation.
+    tags:
+      - VMware
+      - Splunk
+      - pfSense
+      - Docker
+    links:
+      github: https://github.com/yourusername/home-cyber-lab
+
+  - name: Phishing Email Analyzer
+    category: Tool
+    status: Completed
+    description: An automated tool for analyzing suspicious emails, extracting IOCs, checking reputation scores, and generating detailed threat reports for SOC analysts.
+    tags:
+      - Python
+      - Flask
+      - VirusTotal API
+      - YARA
+    links:
+      github: https://github.com/yourusername/phishing-analyzer
+      demo: https://phishing-analyzer.example.com
+
+  - name: Network IDS
+    category: Personal
+    status: Active
+    description: A lightweight intrusion detection system built for home networks, featuring real-time traffic analysis, anomaly detection, and Slack/Discord alerting integration.
+    tags:
+      - Python
+      - Scapy
+      - Machine Learning
+      - Docker
+    links:
+      github: https://github.com/yourusername/network-ids

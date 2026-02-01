@@ -1,0 +1,48 @@
+# ===========================================
+# Certifications Configuration
+# ===========================================
+# Add your certifications below. Each certification should have:
+#   - name: Certification name
+#   - issuer: Issuing organization
+#   - year: Year obtained
+#   - status: ACTIVE or EXPIRED
+#   - description: Brief description
+#   - badge: Path to badge image (e.g., badges/security-plus.png)
+#   - verify_url: URL to verify the certification (Credly, etc.)
+#
+# Badge images should be placed in a "badges" folder.
+# Recommended size: 200x200 pixels, PNG format with transparency.
+# ===========================================
+
+certifications:
+  - name: CompTIA Security+
+    issuer: CompTIA
+    year: 2023
+    status: ACTIVE
+    description: Foundational cybersecurity certification covering network security, compliance, threats, and vulnerabilities.
+    badge: badges/security-plus.png
+    verify_url: https://www.credly.com/badges/your-badge-id
+
+  - name: CompTIA CySA+
+    issuer: CompTIA
+    year: 2024
+    status: ACTIVE
+    description: Cybersecurity analyst certification focusing on threat detection, analysis, and response techniques.
+    badge: badges/cysa-plus.png
+    verify_url: https://www.credly.com/badges/your-badge-id
+
+  - name: eJPT
+    issuer: INE Security
+    year: 2024
+    status: ACTIVE
+    description: Entry-level penetration testing certification validating practical offensive security skills.
+    badge: badges/ejpt.png
+    verify_url: https://certs.ine.com/your-cert-id
+
+  - name: CEH
+    issuer: EC-Council
+    year: 2024
+    status: ACTIVE
+    description: Certified Ethical Hacker certification demonstrating knowledge of hacking techniques and countermeasures.
+    badge: badges/ceh.png
+    verify_url: https://aspen.eccouncil.org/verify
