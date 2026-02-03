@@ -1386,7 +1386,7 @@ button {
 /* Timeline card hover - subtle animation with neon glow */
 .timeline-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 20px var(--accent-glow), 0 0 30px rgba(59, 130, 246, 0.15);
+    box-shadow: var(--shadow-glow);
 }
 
 .timeline-date {
