@@ -163,7 +163,7 @@ const ThemeManager = {
 // ============================================
 
 const Router = {
-    pages: ['home', 'about', 'experiences', 'certifications', 'projects', 'blog'],
+    pages: ['home', 'about', 'experiences', 'certifications', 'works', 'blog'],
 
     init() {
         // Handle initial load
@@ -622,9 +622,9 @@ const ProjectsManager = {
 
         try {
             // Fetch the YAML file with timeout
-            const response = await fetchWithTimeout('data/projects.yml');
+            const response = await fetchWithTimeout('data/works.yml');
             if (!response.ok) {
-                throw new Error('Failed to load data/projects.yml');
+                throw new Error('Failed to load data/works.yml');
             }
 
             const yamlText = await response.text();
@@ -632,11 +632,11 @@ const ProjectsManager = {
             // Parse YAML using js-yaml library
             const data = jsyaml.load(yamlText);
 
-            if (!data || !data.projects || data.projects.length === 0) {
-                throw new Error('No projects found in YAML');
+            if (!data || !data.works || data.works.length === 0) {
+                throw new Error('No works found in YAML');
             }
 
-            this.renderProjects(data.projects);
+            this.renderProjects(data.works);
 
         } catch (error) {
             console.error('Error loading projects:', error);
