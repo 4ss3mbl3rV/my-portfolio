@@ -47,14 +47,6 @@ certifications:
     badge: assets/badges/ecc-cct.png
     verify_url: https://aspen.eccouncil.org/Certificate/DownloadDigitalCert?Serial=RZmj0QVTO4Q+2pwGvmJgVuTbuyU0ZV3wDWARP2OWZUE=
 
-  - name: Fortinet Certified Fundamentals - Cybersecurity
-    issuer: Fortinet
-    year: 2026
-    status: ACTIVE
-    category: General
-    badge: assets/badges/fortinet-fundamentals.png
-    verify_url: https://www.credly.com/badges/c143a508-e207-4ddd-9f01-1383a60c031f/public_url
-
   - name: Fortinet Certified Associate - Cybersecurity
     issuer: Fortinet
     year: 2026
@@ -62,6 +54,14 @@ certifications:
     status: ACTIVE
     badge: assets/badges/fortinet-associate.png
     verify_url: https://www.credly.com/badges/161295f7-631e-4780-8172-4b783d78203c/public_url
+
+  - name: Fortinet Certified Fundamentals - Cybersecurity
+    issuer: Fortinet
+    year: 2026
+    status: ACTIVE
+    category: General
+    badge: assets/badges/fortinet-fundamentals.png
+    verify_url: https://www.credly.com/badges/c143a508-e207-4ddd-9f01-1383a60c031f/public_url
 
   - name: Certified API Security Analyst
     issuer: APIsec
